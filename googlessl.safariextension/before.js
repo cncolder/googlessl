@@ -1,0 +1,1 @@
+/^http:\/\/www.google.com\/search\?client=safari&rls=en&q=.*&ie=UTF-8&oe=UTF-8$/.test(h=location.href)&&(location.href=h.replace('http://www','https://encrypted'));
